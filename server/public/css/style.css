@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+input, button {
+	border: 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'microsoft Yahei', "helvetica neue", arial, sans-serif;
+	background-color: #F7F7F7;
+}
+.wrapper {
+	min-height: 100%;
+}
+.header {
+	position: fixed;
+    width: 100%;
+}
+.header h1 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 64px;
+    text-align: center;
+    background-color: #333;
+}
+.header .info {
+    padding: 10px 15px;
+	display: flex;
+	background-color: #feb065;
+}
+.header .info .avatar img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: block;
+}
+.header .info .nickname {
+    padding-left: 15px;
+    line-height: 60px;
+}
+.main {
+    padding: 144px 0 80px;
+}
+.listview {
+	padding: 15px;
+}
+.listview > p {
+	text-align: center;
+}
+.listview .item a {
+    padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	display: flex;
+	background-color: #ececec;
+}
+.listview .item .avatar img {
+	width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: block;
+}
+.listview .item .content {
+	padding-left: 10px;
+    flex: 1;
+}
+.listview .item .content .head {
+    height: 36px;
+    padding: 5px 0 8px;
+}
+.listview .item .content .head p.subtitle {
+	font-size: 12px;
+}
+.listview .item .content .body {
+	font-size: 15px;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.listview .item .content .body .event {
+	color: #f00;
+}
+.listview .item .content .foot {
+	font-size: 14px;
+	line-height: 28px;
+	overflow: hidden;
+}
+.listview .item .content .foot ul li {
+	padding-left: 15px;
+}
+.pull-right {
+	float: right;
+}
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #333333;
+}
+.footer ul {
+	padding: 20px 15px;
+	display: flex;
+}
+.footer ul li:nth-child(2) {
+	flex: 6;
+	padding: 0 10px;
+}
+.footer ul li:last-child {
+	flex: 2;
+}
+.footer ul li input,
+.footer ul li .btn {
+	width: 100%;
+	font-size: 16px;
+	line-height: 37px;
+    border-radius: 4px;
+}
+.footer ul li input {
+	padding-left: 5px;
+}
+/* icon */
+.icon {
+	margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-comment {
+	width: 21px;
+	height: 20px;
+	background-image: url(../images/comment.png);
+}
+.icon-laud {
+	width: 17px;
+	height: 18px;
+	background-image: url(../images/laud.png);
+}
+.icon-keyboard {
+	width: 38px;
+	height: 37px;
+	background-image: url(../images/keyboard.png);
+}

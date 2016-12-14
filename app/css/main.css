@@ -1,0 +1,64 @@
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+a {
+	color: #000000;
+}
+.listview {
+	padding: 15px;
+}
+.listview > p {
+	font-size: 16px;
+	text-align: center;
+}
+.listview .item a {
+	position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+	border-radius: 4px;
+	background-color: #ececec;
+	display: block;
+}
+.listview .item a .avatar {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+.listview .item a .avatar img {
+	width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: block;
+}
+.listview .item a .content {
+	padding-left: 70px;
+	padding-right: 10px;
+}
+.listview .item a .content .head {
+    padding: 8px 0;
+}
+.listview .item a .content .head p.subtitle {
+	font-size: 12px;
+}
+.listview .item a .content .body {
+	font-size: 15px;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.listview .item a .content .body .event {
+	color: #f00;
+}
+.listview .item a .content .foot {
+	font-size: 14px;
+	line-height: 28px;
+	overflow: hidden;
+}
+.listview .item a .content .foot ul li {
+	padding-left: 15px;
+}
+.pull-right {
+	float: right;
+}
